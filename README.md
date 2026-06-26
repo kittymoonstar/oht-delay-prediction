@@ -36,6 +36,7 @@ Deep learning model to predict real-time traffic congestion and delays for semic
   - **설정**: Adam 옵티마이저 / Binary Crossentropy 손실 함수
 
 ## 4. 분석 결과 및 배운 점
+![최종 결과 그래프](./result_graph.png)
 - 노이즈가 섞인 까다로운 조건에서도 20 Epoch 동안 돌리면서 Loss가 안정적으로 떨어지는 것을 확인했습니다.
 - **최종 검증 정확도(Accuracy)**: 70.50%
 - 단순한 데이터로 학습시키는 것보다, 현실적인 노이즈를 섞고 전처리를 해주는 과정이 딥러닝 모델 성능에 얼마나 큰 영향을 미치는지 직접 경험해 볼 수 있었습니다.
